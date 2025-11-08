@@ -1,0 +1,11 @@
+{
+  "name": "Quiz Declinazioni Latine",
+  "short_name": "Declinazioni",
+  "description": "Quiz di declinazioni latine — esercitati con tutte le cinque declinazioni del latino classico.",
+  "start_url": ".",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#ffffff",
+  "theme_color": "#ffffff",
+  "icons": []
+}
