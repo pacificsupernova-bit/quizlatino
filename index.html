@@ -4,10 +4,24 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Quiz Declinazioni Latine</title>
-    <!-- (PWA dopo: aggiungeremo manifest e SW quando l'anteprima è stabile) -->
+
+    <!-- Manifest + icone (RELATIVI) -->
+    <link rel="manifest" href="manifest.webmanifest" />
+    <meta name="theme-color" content="#ffffff" />
+    <link rel="icon" type="image/png" sizes="192x192" href="icon-192.png" />
+    <link rel="icon" type="image/png" sizes="512x512" href="icon-512.png" />
   </head>
   <body>
     <div id="root"></div>
-    <script type="module" src="/src/main.tsx"></script>
+
+    <!-- Entrata Vite (RELATIVA) -->
+    <script type="module" src="./src/main.tsx"></script>
+
+    <!-- Service Worker (RELATIVO) -->
+    <script>
+      if ("serviceWorker" in navigator) {
+        navigator.serviceWorker.register("./service-worker.js").catch(()=>{});
+      }
+    </script>
   </body>
 </html>
