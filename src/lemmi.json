@@ -1,0 +1,9 @@
+[
+  { "nom":"puella","gen":"puellae","gender":"f","decl":1,"meaning":"fanciulla" },
+  { "nom":"nauta","gen":"nautae","gender":"m","decl":1,"meaning":"marinaio" },
+  { "nom":"amicus","gen":"amici","gender":"m","decl":2,"meaning":"amico" },
+  { "nom":"templum","gen":"templi","gender":"n","decl":2,"meaning":"tempio" },
+  { "nom":"rex","gen":"regis","gender":"m","decl":3,"meaning":"re" },
+  { "nom":"manus","gen":"manus","gender":"f","decl":4,"meaning":"mano" },
+  { "nom":"dies","gen":"diei","gender":"m","decl":5,"meaning":"giorno" }
+]
